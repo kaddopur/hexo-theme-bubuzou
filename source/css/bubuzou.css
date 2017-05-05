@@ -280,7 +280,13 @@ header {
     height: 60px;
 }
 header .logo-link {
-    float: left
+    float: left;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: '微软雅黑';
+    line-height: 60px;
 }
 
 header .nav {

@@ -6,10 +6,8 @@ html(lang=config.language)
         header
            .header.row 
                 a.logo-link(href=url_for())
-                    img(src=theme.logo)
+                    =config.title
                 include nav
-                .search
-                    a#search_btn(href='#search')
         .row.scroll-con
             section.container
                 block container
@@ -19,11 +17,6 @@ html(lang=config.language)
                     include ../widget/recent
                     include ../widget/catalog
         .right-menu
-        .modal.search-modal
-            .input-field
-                input(type='text', id='search_input')
-                label(for='search-input') 搜索
-            #search_result.search-result
         .blog-overlay
 
         footer.row

@@ -1,9 +1,7 @@
 menu:
-    博文: /
-    归档: /archives/
-    生活: /categories/live/
-    摄影: /categories/film/
-    关于: /about/
+    博文: /blog/
+    歸檔: /blog/archives/
+    關於: https://kaddopur.github.io/
 
 widgets:
 - category
@@ -13,17 +11,16 @@ widgets:
 
 # count
 show_count: true
-favicon: /images/favicon.ico
-logo: /images/logo.png
+favicon: /blog/images/favicon.ico
+logo: /blog/images/logo.png
 
 # Comment
 # e.g disqus: seansun
-disqus:
-duoshuo: bubuzou
+disqus: kaddopur
 
 # Analytics
 # google-analytics:
-ga: UA-65933410-1
+ga: UA-6593436-3
 
 # Copyright Infomation
 startyear: 2016
