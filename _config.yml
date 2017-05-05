@@ -1,6 +1,8 @@
 menu:
-    博文: /blog/
     歸檔: /blog/archives/
+    週記: /blog/categories/週記/
+    React: /blog/tags/React/
+    Elixir: /blog/tags/Elixir/
     關於: https://kaddopur.github.io/
 
 widgets:
