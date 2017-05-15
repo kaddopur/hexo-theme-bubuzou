@@ -9,6 +9,13 @@ block description
     meta(name="description", content= config.description ? config.description : '蝌蚪伯的摳頂筆記')
 meta(name="keywords", content= config.keywords)
 meta(name="author", content= config.author)
+meta(property="og:title" content= config.title)
+meta(property="og:description" content= config.description ? config.description : '蝌蚪伯的摳頂筆記')
+meta(property="og:url" content= url.substr(0, url.length - 10).replace(/^http:/, 'https:'))
+meta(property="og:image" content="https://kaddopur.github.io/blog/images/cover.jpg")
+meta(property="og:image:type" content="image/jpeg")
+meta(property="og:image:width" content="2956")
+meta(property="og:image:height" content="1026")
 link(rel="short icon", href=url_for(theme.favicon))
 link(rel="stylesheet", href=url_for("css/bubuzou.css"))
 
